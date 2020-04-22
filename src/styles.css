@@ -1,6 +1,9 @@
+
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: whitesmoke;
+    background-color: black;
+    background-image: url("https://image.ibb.co/mjnygo/stars.png");
+    color: blanchedalmond;
     /* padding-bottom:160px; */
 }
 /* h1{

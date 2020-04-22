@@ -1,5 +1,6 @@
         
 .divider {								/* minor cosmetics */
+    color: blanchedalmond;
     display: table; 
     text-align: center; 
     
@@ -7,8 +8,9 @@
     margin-top: 0;					/* spacing above/below */
     margin: auto;
 }
-.divider span { display: table-cell; position: relative; }
+.divider span { display: table-cell; position: relative; color: blanchedalmond;}
 .divider span:first-child, .divider span:last-child {
+    color: blanchedalmond;
     width: 50%;
     top: 13px;							/* adjust vertical align */
     -moz-background-size: 100% 2px; 	/* line width */
@@ -17,26 +19,27 @@
     background-repeat: no-repeat;
 }
 .divider span:first-child {				/* color changes in here */
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000));
-    background-image: -webkit-linear-gradient(180deg, transparent, #000);
-    background-image: -moz-linear-gradient(180deg, transparent, #000);
-    background-image: -o-linear-gradient(180deg, transparent, #000);
-    background-image: linear-gradient(90deg, transparent, #000);
+    
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(blanchedalmond));
+    background-image: -webkit-linear-gradient(180deg, transparent, blanchedalmond);
+    background-image: -moz-linear-gradient(180deg, transparent, blanchedalmond);
+    background-image: -o-linear-gradient(180deg, transparent, blanchedalmond);
+    background-image: linear-gradient(90deg, transparent, blanchedalmond);
 }
 .divider span:nth-child(2) {
-    color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
+    color: blanchedalmond; padding: 0px 5px; width: auto; white-space: nowrap;
 }
 .divider span:last-child {				/* color changes in here */
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
-    background-image: -webkit-linear-gradient(180deg, #000, transparent);
-    background-image: -moz-linear-gradient(180deg, #000, transparent);
-    background-image: -o-linear-gradient(180deg, #000, transparent);
-    background-image: linear-gradient(90deg, #000, transparent);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(blanchedalmond), to(transparent));
+    background-image: -webkit-linear-gradient(180deg, blanchedalmond, transparent);
+    background-image: -moz-linear-gradient(180deg, blanchedalmond, transparent);
+    background-image: -o-linear-gradient(180deg, blanchedalmond, transparent);
+    background-image: linear-gradient(90deg, blanchedalmond, transparent);
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: blanchedalmond;
   }
   
   ul {
