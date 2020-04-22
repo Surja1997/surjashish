@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     background-color: whitesmoke;
-    /* margin-bottom:60px; */
+    /* padding-bottom:160px; */
 }
+/* h1{
+    font-size: 9vw;
+} */
+@media screen and (max-width: 400px) {
+    h1 {
+      font-size: 9vw;
+    }
+  }
