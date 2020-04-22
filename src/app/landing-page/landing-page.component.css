@@ -1,0 +1,94 @@
+.myPic {
+    height: 200px;
+    background-color: #666666;
+  }
+.dp
+{
+    height: 300px;
+    width: 300px;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    transition: transform .7s;
+}
+.dp:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+.name{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 2%;;
+    
+}
+.professional
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: dimgray;
+}
+.handles
+{
+  width: 30%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+#icons{
+  transition: transform .2s;
+  
+
+}
+#icons:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+-webkit-transform: scale(1.2); /* Safari 3-8 */
+transform: scale(1.2);
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333333; */
+}
+
+li{
+  text-align: center;
+}
+
+ul > li {
+  display: inline-block;
+  /* You can also add some margins here to make it look prettier */
+  zoom:1;
+  *display:inline;
+  /* this fix is needed for IE7- */
+}
+#menu li{
+  margin-right: 15px;
+  margin-top: 2%;
+}
+#menu
+{
+  text-align: center;
+}
+#menu li a:hover
+{
+  color: gray;
+}
