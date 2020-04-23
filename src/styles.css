@@ -2,7 +2,7 @@
 
 body {
     background-color: black;
-    background-image: url("https://image.ibb.co/mjnygo/stars.png");
+    /* background-image: url("https://image.ibb.co/mjnygo/stars.png"); */
     color: blanchedalmond;
     /* padding-bottom:160px; */
 }
@@ -16,4 +16,15 @@ body {
     h1 {
         font-size: 9vw;
     }
+}
+
+
+/* the below style is to redirect page to homepage and shall be used everywhere in the website. */
+
+#back {
+    margin-top: 5%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
