@@ -8,6 +8,7 @@ const routes: Routes = [
   {path: '', component: LandingPageComponent},
   {path: 'about', component: AboutComponent},
   {path: 'contact', component: ContactComponent},
+  {path: '**', component: LandingPageComponent}
 
 
 ];
