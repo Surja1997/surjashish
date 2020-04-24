@@ -1,0 +1,10 @@
+<div style="display: block" class="pieChart">
+    <div>
+        <div class="chart">
+            <canvas baseChart [data]="pieChartData" [colors]="pieChartColors" [labels]="pieChartLabels" [chartType]="pieChartType" [options]="pieChartOptions" [legend]="pieChartLegend">
+        </canvas>
+        </div>
+    </div>
+    <button type="button" (click)="pieChartLegend=!pieChartLegend" class="btn btn-outline-warning" style="color: blanchedalmond;float: left; margin-left: 2%;" id="back">Toggle Legend</button>
+    <button type="button" (click)="changeLegendPosition()" class="btn btn-outline-warning" style="color: blanchedalmond;float: right; margin-right: 2%;" id="back">Legend Position</button>
+</div>

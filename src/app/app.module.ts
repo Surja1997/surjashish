@@ -8,6 +8,9 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { GraphComponent } from './graph/graph.component';
+import { ChartsModule } from 'ng2-charts';
+
 
 @NgModule({
   declarations: [
@@ -16,11 +19,13 @@ import { ContactComponent } from './contact/contact.component';
     LandingPageComponent,
     FooterComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    GraphComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
