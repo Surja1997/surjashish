@@ -12,4 +12,15 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  checkName(name)
+  {
+    if(name.toLowerCase()=="sakshi")
+    {
+      alert("aashu loves you na");
+    }
+    else
+    {
+      alert("alright!")
+    }
+  }
 }
