@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { CovidDetailsService } from '../services/covid-details.service';
+
+
+
 
 @Component({
   selector: 'app-contact',
@@ -7,20 +11,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  public covidCases = [];
+
+  constructor(private covidService: CovidDetailsService) { }
 
   ngOnInit(): void {
+    this.covidService.getDetails()
+      .subscribe(data => {
+        this.covidCases = data['raw_data']
+        
+      });
   }
 
-  checkName(name)
-  {
-    if(name.toLowerCase()=="sakshi")
-    {
+  checkName(name) {
+    if (name.toLowerCase() == "sakshi" || name.toLowerCase() == "sakshi mishra") {
       alert("aashu loves you na");
     }
-    else
-    {
-      alert("alright!")
+    else {
+      alert("whatever xD")
     }
   }
+
+
+
+
+
 }
