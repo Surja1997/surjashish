@@ -1,11 +1,8 @@
-<p>Page under construction, please come back later xD</p>
+
 
 <div id="back">
     <input type="text" placeholder="Enter you name" #name />
-    <button type="button" (click)=checkName(name.value) style="color: blanchedalmond;" class="btn btn-outline-warning">click</button>
+    <button type="button"  (click)=checkName(name.value) style="color: blanchedalmond;" class="btn btn-outline-warning">click</button>
 </div>
 <button type="button" routerLink="/" class="btn btn-outline-warning" style="color: blanchedalmond;" id="back">Home</button>
 
-<ul *ngFor="let covidCase of covidCases">
-    <li>Detected District = {{covidCase.detecteddistrict}}</li>
-</ul>

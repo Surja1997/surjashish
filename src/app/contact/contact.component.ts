@@ -24,12 +24,13 @@ export class ContactComponent implements OnInit {
   }
 
   checkName(name) {
-    if (name.toLowerCase() == "sakshi" || name.toLowerCase() == "sakshi mishra") {
-      alert("aashu loves you na");
-    }
-    else {
-      alert("whatever xD")
-    }
+    // if (name.toLowerCase() == "sakshi" || name.toLowerCase() == "sakshi mishra") {
+    //   alert("aashu loves you na");
+    // }
+    // else {
+    //   alert("whatever xD")
+    // }
+    alert("Your name is "+name)
   }
 
 
