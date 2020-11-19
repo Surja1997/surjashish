@@ -1,6 +1,7 @@
 p,
 h1 {
     text-align: center;
+  
 }
 
 .about {
@@ -19,4 +20,38 @@ h1 {
         margin-right: auto;
         margin-top: 5%;
     }
+}
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+
+/* list ka natak */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333333; */
+}
+
+li {
+    text-align: center;
+}
+
+
+
+#menu li {
+    margin-right: 15px;
+    margin-top: 2%;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu li a:hover {
+    color: gray;
 }
