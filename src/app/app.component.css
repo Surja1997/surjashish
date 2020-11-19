@@ -15,7 +15,7 @@ html {
 #stars:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 0px;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -33,7 +33,7 @@ html {
 #stars2:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 0px;
     width: 2px;
     height: 2px;
     background: transparent;
@@ -51,7 +51,7 @@ html {
 #stars3:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 0px;
     width: 3px;
     height: 3px;
     background: transparent;
