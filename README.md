@@ -31,3 +31,4 @@ Some steps or command I would like to add :-
 1. npm update right after cloning the repo
 2. ng build --prod --base-href https://Surja1997.github.io/surjashish/ 
 3. stars - app Com css
+4. 'ng serve' to run the app
