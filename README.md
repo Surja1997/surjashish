@@ -1,6 +1,7 @@
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+kept the project name as surja-frontend
 
 ## Development server
 
@@ -32,3 +33,6 @@ Some steps or command I would like to add :-
 2. ng build --prod --base-href https://Surja1997.github.io/surjashish/ 
 3. stars - app Com css
 4. 'ng serve' to run the app
+5. point no 2 has been changed to - ng build --configuration production --base-href https://Surja1997.github.io/surjashish/   in the new version of angular.
+6. Current version is 0.0.1 with minor changes. 
+7. Planning to push new versions with  different subsequent modifications using angular, html and css.

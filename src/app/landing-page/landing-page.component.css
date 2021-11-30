@@ -72,11 +72,11 @@
     margin-right: auto;
     text-align: center;
     color: dimgray;
+    margin-bottom: auto;
 }
 
 .handles {
     width: 30%;
-    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -125,7 +125,7 @@ ul>li {
 
 #menu li {
     margin-right: 15px;
-    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 #menu {

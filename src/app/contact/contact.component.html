@@ -1,9 +1,13 @@
-
 <div id="back">
-<p style="color: blanchedalmond">This page is under construction, please feel free to roam around</p>
+    <p style="color: blanchedalmond">This page is under construction, please feel free to roam around</p>
+    <p style="color: blanchedalmond">Little modifications will be made on a time-to-time basis and changes will be reflected here. </p>
 
-    <input type="text" placeholder="Enter you name" #name />
-    <button type="button"  (click)=checkName(name.value) style="color: blanchedalmond;" class="btn btn-outline-warning">click</button>
 </div>
-<button type="button" routerLink="/" class="btn btn-outline-warning" style="color: blanchedalmond;" id="back">Home</button>
 
+    <div class="field">
+        <input type="text" placeholder="Enter your name" #name id="myName" />
+        <button type="button" (click)=checkName(name.value) style="color: blanchedalmond;"
+            class="btn btn-outline-warning" id="myBtn">click</button>
+    </div>
+<button type="button" routerLink="/" class="btn btn-outline-warning" style="color: blanchedalmond;"
+    id="back">Home</button>
